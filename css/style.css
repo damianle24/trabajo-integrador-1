@@ -1,0 +1,128 @@
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Bungee', cursive;
+    font-family: 'Monomaniac One', sans-serif;
+    font-family: 'Teko', sans-serif;
+}
+h1{font-size: 45px;}
+h2{font-size: 35px; text-align: center;}
+h3{font-size: 25px;}
+p{font-size: 20px; text-align: center;}
+
+.logo{
+    height: 80px;
+    width: 100px;
+    border-radius: 50%;
+}
+.menu{
+    background-color: rgb(248, 231, 246);
+
+}
+body{
+    background: color fififi;
+}
+.menu nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu a{
+    text-decoration: none;}
+    button{
+        font-size: 20px;
+        font-weight: bold;
+        padding: 15px 30px;
+        border-radius: 10px;
+        color: rgb(17, 18, 18);
+        background-color: rgb(114, 234, 196);
+    }
+    form{
+        display:flex ;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        
+    }
+    button:hover{
+        background-color: rgb(55, 193, 193);
+    }
+    .catering{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        color: rgb(248, 238, 238);
+        text-transform: uppercase;
+        height:460px;
+        background-image: url("../media/salon.jpg");
+        background-repeat: no-repeat; 
+        background-position: center;
+    }
+        
+
+        .container1{
+            background-color: rgb(255, 210, 249);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap:nowrap ;
+            text-align: center;}
+        .eventos{
+
+            background-size: cover; 
+            padding: 40px 30px;
+            margin: 4px;
+            border-radius: 20px; 
+            border-style: double;
+        }
+        .container1.a{
+            width: 1700px;
+            height: 170px;
+            background-color: blueviolet;
+        }
+        img{
+            width: 220px;
+            height: 280px;
+            border-radius: 4px;
+        }
+        .carousel-item img{
+            height: 650px;
+            width: 800px;
+            
+
+        }
+        .carousel-item button{
+        background-color: blueviolet;
+        }
+        .titulo{
+            text-align: center;
+        }
+        .eventos p{
+            display: none;
+        }
+
+
+
+        footer{
+            background-color: rgb(230,230,230);
+        }
+        
+        footer p{
+            text-transform: uppercase;
+            margin: 0;
+            padding: 12x;
+            color: rgb(100,100,100);
+        }
+        
+        footer .container{
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
